@@ -1,6 +1,6 @@
 {
-  "name": "ぺたり帳",
-  "short_name": "ぺたり帳",
+  "name": "ぺたり帖",
+  "short_name": "ぺたり帖",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f7f4ec",
