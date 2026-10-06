@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f7f4ec;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#addButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #f5c96a;
+  font-size: 16px;
+}
+
+#memoList {
+  display: grid;
+  gap: 15px;
+}
+
+.memo {
+  padding: 15px;
+  background: #fff4a8;
+  border-radius: 3px;
+  min-height: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.memo textarea {
+  width: 100%;
+  min-height: 80px;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.deleteButton {
+  float: right;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+}
